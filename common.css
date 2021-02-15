@@ -9,3 +9,8 @@
 * {
   font-family: "IBMPlexSansKR-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* 매니저표시 제거(구독티콘 존재하는 경우) */
+img[src="https://static-cdn.jtvnw.net/badges/v1/6c22bda7-305f-4ef8-9f4b-f2e872381ae9/1"] ~ img[alt="Moderator"] {
+  display: none;
+}

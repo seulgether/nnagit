@@ -43,6 +43,17 @@ html, body {
   height: 72px;
 }
 
+/* 접속자 수 */
+#board-info #viewers-area {
+	font-size: 12px;
+}
+#viewers:before {
+	content: '삐약이 모이 주려고 ';
+}
+#viewers:after {
+	content: '명이 서성이는중...!';
+}
+
 /* 추천수 배경 */
 #article-list > .article-list-row > .item > .list-header > span {
   background-color: var(--color-light-blue);

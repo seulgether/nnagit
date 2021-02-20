@@ -1,1 +1,13 @@
 @import url("./common.css");
+
+/* 모바일 배경색 */
+header, footer {
+	background: var(--color-bg);
+}
+
+/* 메인 로고 */
+header > #header-area > a > h1 {
+	width: 92.16px;
+	background: url(./images/banner.png) no-repeat;
+	background-size: contain;
+}

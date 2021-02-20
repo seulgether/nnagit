@@ -1,3 +1,12 @@
+:root {
+  --color-bg-0: #eedbe2;
+  --color-bg-1: #f7f0ec;
+  --color-bg-2: #f1ecea;
+  --color-bg-3: #d8d7d7;
+  --color-light-gray: #d6cbcf;
+  --color-pink: #f76c9f;
+  --color-light-blue: #c0ddef;
+}
 
 @font-face {
   font-family: 'IBMPlexSansKR-Regular';
@@ -14,3 +23,55 @@
 img[src="https://static-cdn.jtvnw.net/badges/v1/6c22bda7-305f-4ef8-9f4b-f2e872381ae9/1"] ~ img[alt="Moderator"] {
   display: none;
 }
+
+/* 배경 */
+html, body {
+  height: auto;
+  background: var(--color-bg-1);
+}
+
+/* Top 버튼 이미지 변경 */
+#movetotop > img {
+  display: none;
+}
+#movetotop {
+  display: inline-block;
+  background-image: url(./images/rotate-bbyak.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+}
+
+/* 추천수 배경 */
+#article-list > .article-list-row > .item > .list-header > span {
+  background-color: var(--color-light-blue);
+}
+
+/* 버튼색 */
+/* .btn-primary {
+	background-color: var(--color-pink-2);
+	border-color: var(--color-pink-2);
+	color: var(--color-active);
+}
+.btn-primary:hover {
+	background-color: var(--color-pink-0);
+	border-color: var(--color-pink-0);
+}
+.btn-primary:active {
+	background-color: var(--color-active);
+	border-color: var(--color-active);
+}
+.btn-primary:focus, .btn-primary:active:focus {
+	background-color: var(--color-focus);
+	border-color: var(--color-focus);
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+	background-color: var(--color-active-focus);
+	border-color: var(--color-active-focus);
+} */
